@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    padding: 6px 15px;
+    margin: 0px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navigation a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 5rem;  
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.content{
+    position: relative;
+    background: #05051f;
+    padding: 100px;
+    margin-top: 250px;
+}
+.content h2{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.content p{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+}
